@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: auto;
+  max-height: 2.5vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +15,33 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Links-container {
+  padding-left: 5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.App-header {
+  font-family: 'Open Sans', sans-serif;
+  height: 3vh;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2vmin;
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  margin: 0px 20px;
+  padding: 0px 5px;
+  text-decoration: none;
+  
+}
+
+.App-link:hover {
+  color: rgb(197, 196, 196);
 }
 
 @keyframes App-logo-spin {
