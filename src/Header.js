@@ -3,7 +3,7 @@ import logo from './react.svg';
 const getLinks = () => {
   return [
     {
-      title: 'about',
+      title: 'About',
       source: ''
     },
     {
@@ -16,7 +16,7 @@ const getLinks = () => {
     },
     {
       title: 'Download Resume',
-      source: '',
+      source: 'Resume.pdf',
       download: 'resume'
     }
   ]
