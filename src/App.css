@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+body {
+  background-color: antiquewhite;
+  font-size: 3em;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   width: auto;
-  max-height: 2.5vh;
+  height: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,28 +20,38 @@
   }
 }
 
+.Built-with {
+  margin: 5px 0px 5px 5px;
+}
+
+.Img-container {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+}
+
 .Links-container {
-  padding-left: 5px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .App-header {
   font-family: 'Open Sans', sans-serif;
-  height: 3vh;
+  height: fit-content;
   background-color: #282c34;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 2vmin;
+  font-size: x-large;
   color: white;
+  position: sticky;
 }
 
 .App-link {
   color: white;
-  margin: 0px 20px;
-  padding: 0px 5px;
   text-decoration: none;
+  margin: 5px 1vw;
   
 }
 

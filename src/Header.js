@@ -25,8 +25,8 @@ const getLinks = () => {
 const Header  = () => {
   return (
   <header className="App-header">
-    <div className="Links-container">
-      <span style={{height: '3vh'}}>Built with all t</span>
+    <div className="Img-container">
+      <p className="Built-with">Built with</p>
       <img src={logo} className="App-logo" alt="logo" />
     </div>
     <div className="Links-container">
