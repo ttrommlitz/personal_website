@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
-  background-color: antiquewhite;
   font-size: 3em;
 }
 
@@ -18,6 +17,20 @@ body {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.introduction {
+  display: flex;
+  width: 50%;
+}
+
+.intro-section-1 {
+  border: 5px solid black;
+}
+
+.image-1 {
+  width: auto;
+  height: 60vmin;
 }
 
 .Built-with {
