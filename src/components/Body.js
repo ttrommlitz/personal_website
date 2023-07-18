@@ -15,7 +15,12 @@ const getIcons = () => {
     'node-js',
     'python',
     'graphql',
-    'vue'
+    'vue',
+    'react',
+    'typescript',
+    'swift',
+    'atlassian',
+    'heroku'
   ]
 }
 
