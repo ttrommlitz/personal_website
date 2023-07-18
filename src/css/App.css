@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: auto;
+  height: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.introduction {
+  display: flex;
+}
+
+.intro-section-1 {
+  width: 50%;
+  font-size: 3em;
+}
+
+.intro-section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.icons {
+  margin: 10px;
+}
+
+.image-1 {
+  
+}
+
+.Built-with {
+  margin: 5px 0px 5px 5px;
+}
+
+.Img-container {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+}
+
+.Links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-header {
+  font-family: 'Open Sans', sans-serif;
+  height: fit-content;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+  color: white;
+  position: sticky;
+}
+
+.App-link {
+  color: white;
+  text-decoration: none;
+  margin: 5px 1vw;
+  
+}
+
+.App-link:hover {
+  color: rgb(197, 196, 196);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
