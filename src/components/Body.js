@@ -1,4 +1,7 @@
+import '../css/Body.css'
+
 const getIcons = () => {
+
   return [
     'amazonwebservices',
     'cplusplus',
@@ -9,7 +12,10 @@ const getIcons = () => {
     'javascript',
     'linux',
     'mysql',
-    'node-js'
+    'node-js',
+    'python',
+    'graphql',
+    'vue'
   ]
 }
 
@@ -18,7 +24,7 @@ const Body = () => {
     <div className="introduction">
       <div className="intro-section-1">
         <h1>Hi there! I'm Tyler!</h1>
-        <img className="image-1" src="icons/javascript.png" alt="computer" />
+        <img className="image-1" src="devices.png" alt="computer" />
       </div>
       <div className="intro-section-2">
       <h3>Languages, Tools, and Technologies</h3>

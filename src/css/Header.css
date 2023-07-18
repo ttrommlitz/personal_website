@@ -1,0 +1,66 @@
+.App-logo {
+  width: auto;
+  height: 40px;
+  filter: invert(0%) sepia(0%) saturate(7473%) hue-rotate(171deg) brightness(88%) contrast(106%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-link, .Resume-button {
+  text-decoration: none;
+  margin: 5px 1vw;
+  color: white
+}
+
+.Resume-button {
+  background-color: #BD8889;
+  border-radius: 35px;
+  padding: 0px 15px;
+}
+
+.App-link:hover .Resume-button:hover {
+  color: rgb(197, 196, 196);
+}
+
+.App-header {
+  font-family: 'Open Sans', sans-serif;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: x-large;
+  position: sticky;
+  width: 70vw;
+  margin: 0px auto;
+}
+
+.Built-with {
+  margin: 5px 0px 5px 5px;
+  color: white
+}
+
+.Img-container {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+}
+

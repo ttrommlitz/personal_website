@@ -1,3 +1,4 @@
+import '../css/Header.css'
 import logo from '../react.svg';
 
 const getLinks = () => {
@@ -31,7 +32,7 @@ const Header  = () => {
     </div>
     <div className="Links-container">
     { getLinks().map(link => {
-      return <a className="App-link" href={link.source} download={link.download}>{link.title}</a>
+      return <a className={ link.download ? 'Resume-button' : 'App-link' } href={link.source} download={link.download}>{link.title}</a>
     }) }
     </div>
   </header>
