@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+body {
+  background-color: #14141c;
+}
+
 .App {
   text-align: center;
-  background-color: #88bdbc;
+  width: 80vw;
+  margin: 0px auto
 }

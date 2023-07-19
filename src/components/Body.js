@@ -29,15 +29,16 @@ const Body = () => {
     <div className="introduction">
       <div className="intro-section-1">
         <h1>Hi there! I'm Tyler!</h1>
-        <img className="image-1" src="devices.png" alt="computer" />
+        <img className="image-1" src="computer.png" alt="computer" />
       </div>
       <div className="intro-section-2">
-      <h3>Languages, Tools, and Technologies</h3>
-      <div className="Icon-container">
-        {getIcons().map(icon => {
-          return <img className="icons" src={`icons/${icon}.png`} alt="programming-icon"/>
-        })}
-      </div>
+        <img className="image-1" src="collaboration.png" alt="people" />
+        <h3>Languages, Tools, and Technologies</h3>
+        <div className="Icon-container">
+          {getIcons().map(icon => {
+            return <img className="icons" src={`icons/${icon}.png`} alt="programming-icon"/>
+          })}
+        </div>
       </div>
     </div>
   )

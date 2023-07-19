@@ -1,7 +1,7 @@
 .App-logo {
   width: auto;
   height: 40px;
-  filter: invert(0%) sepia(0%) saturate(7473%) hue-rotate(171deg) brightness(88%) contrast(106%);
+  /* filter: invert(0%) sepia(0%) saturate(7473%) hue-rotate(171deg) brightness(88%) contrast(106%); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,7 +32,7 @@
 }
 
 .Resume-button {
-  background-color: #BD8889;
+  background-color: #373796;
   border-radius: 35px;
   padding: 0px 15px;
 }
@@ -49,7 +49,6 @@
   justify-content: space-around;
   font-size: x-large;
   position: sticky;
-  width: 70vw;
   margin: 0px auto;
 }
 
