@@ -28,13 +28,13 @@ const Body = () => {
   return (
     <div className="introduction">
       <div className="intro-section-1">
-        <h1>Hi there! I'm Tyler!</h1>
-        <img className="image-1" src="computer.png" alt="computer" />
+        <h1 className="animate__animated animate__slideInLeft">Hi there! I'm Tyler!</h1>
+        <img className="intro-image animate__animated animate__slideInLeft animate__delay-1s" src="computer.png" alt="computer" />
       </div>
-      <div className="intro-section-2">
-        <img className="image-1" src="collaboration.png" alt="people" />
-        <h3>Languages, Tools, and Technologies</h3>
-        <div className="Icon-container">
+      <div id="introSectionTwo" className="intro-section-2">
+        <img className="intro-image animate__animated animate__slideInRight animate__delay-1s" src="collaboration.png" alt="people" />
+        <h3 className="animate__animated animate__slideInRight animate__delay-2s">Languages, Tools, and Technologies</h3>
+        <div className="Icon-container animate__animated animate__slideInRight animate__delay-2s">
           {getIcons().map(icon => {
             return <img className="icons" src={`icons/${icon}.png`} alt="programming-icon"/>
           })}
