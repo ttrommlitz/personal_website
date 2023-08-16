@@ -29,7 +29,7 @@ const Body = () => {
     <div className="introduction">
       <div className="intro-section-1">
         <h1 className="animate__animated animate__slideInLeft">Hi there! I'm Tyler!</h1>
-        <img className="intro-image animate__animated animate__slideInLeft animate__delay-1s" src="computer.png" alt="computer" />
+        <img className="intro-image animate__animated animate__slideInLeft animate__delay-1s" src="ci-image.png" alt="computer" />
       </div>
       <div id="introSectionTwo" className="intro-section-2">
         <img className="intro-image animate__animated animate__slideInRight animate__delay-1s" src="collaboration.png" alt="people" />
